@@ -1,3 +1,7 @@
 export default function Home() {
-  return <h1 className="text-white bg-gray-500 text-lg text-center mt-4 mb-4">Mithu Bortamuly</h1>;
+  return (
+    <main className="bg-black/[0.96] min-h-screen antialiased bg-grid-white/[0.02] ">
+      <h1 className="text-center text-2xl">Mithu Bortamuly</h1>
+    </main>
+  );
 }
